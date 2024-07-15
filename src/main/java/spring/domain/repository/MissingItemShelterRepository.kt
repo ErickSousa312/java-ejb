@@ -1,0 +1,5 @@
+package spring.domain.repository
+
+import spring.domain.model.missingItemShelter.MissingItemShelter
+
+interface MissingItemShelterRepository:RepositoryCRUD<MissingItemShelter,Long>
